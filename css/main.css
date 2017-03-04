@@ -15,7 +15,7 @@ body {
 	background: #d5e9d7;
 }
 	
-#wrap {
+#wrapper {
 	background: #84b0b9;
 	padding-top: 1px;
 	height: 100%;
@@ -182,7 +182,7 @@ footer {
 
 @media (min-width: 768px) {
 	
-	#wrap {
+	#wrapper {
 		max-width: 680px;
 		margin: 0 auto;
 	}
