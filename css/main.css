@@ -106,7 +106,14 @@ select {
 	margin-bottom: 5px;
 }
 
-input:placeholder-shown {	
+
+input::-webkit-input-placeholder {	
+	text-align: right;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+}
+
+input::placeholder {	
 	text-align: right;
 	font-family: 'Rokkitt', serif;
 	font-size: 1em;
@@ -115,7 +122,9 @@ input:placeholder-shown {
 input:focus {
 	border: 1px solid #1b3053;
 	background: #d5e9d7;
-	transition: background 3s ease; 
+	transition: background height 3s ease; 
+	height: 40px;
+	
 }
 
 select {
@@ -145,6 +154,10 @@ select {
 	margin-bottom: 10px;
 	font-weight: 600;
 	padding-top: 20px;
+}
+
+input[type=checkbox] {
+	color: blue;
 }
 
 #comment {
